@@ -79,7 +79,7 @@ graph TD
     end
 ```
 
-### 2.2. AI-Powered Query Workflow
+### 2.1. AI-Powered Query Workflow
 
 This sequence shows how a user's natural language query is processed by the system to return a governed, contextualized answer.
 
@@ -109,7 +109,7 @@ sequenceDiagram
     API-->>UI: 7. Display response with governance notes
 ```
 
-### 2.3. UI Interaction Flow
+### 2.2. UI Interaction Flow
 
 This diagram outlines the primary navigation paths and interactions within the NeuGraph user interface.
 
@@ -169,5 +169,6 @@ graph LR
 - **AI/LLM Layer:** Semantic search and LLMs work together (RAG) to answer questions, generate content, and provide context-aware results. Human-in-the-loop ensures quality and curation.
 - **User & Analytics:** Users interact through search UIs, dashboards, document generation, and collaboration tools. Full traceability and provenance are provided for every answer or document.
 - **Feedback Loops:** User feedback and curation update the ontology/knowledge graph and improve the system iteratively.
+
 
 ---
